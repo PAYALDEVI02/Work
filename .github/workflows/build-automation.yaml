@@ -1,9 +1,7 @@
-name: Build Docker Image For Dev Branch
+name: Build Automation
 
 on:
-  push:
-    branches:
-        - dev 
+  workflow_dispatch:
   
 jobs:
 
