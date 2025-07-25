@@ -1,6 +1,5 @@
 package com.space.Myspace;
 
-
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
@@ -28,15 +27,10 @@ public class AppTest
     {
         return new TestSuite( AppTest.class );
     }
-
-    /**
-     * Rigourous Test :-)
-     */
- 
-	public void testadd() {
-		App a=new App();
-		assertEquals(7,a.add(3, 4));
-	}
+     public void testadd() {
+	App a=new App();
+	assertEquals(7,a.add(3, 4));
+     }
 
 }
 
