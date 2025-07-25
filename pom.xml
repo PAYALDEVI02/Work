@@ -6,7 +6,7 @@
   <groupId>com.example.myapp</groupId>
   <artifactId>myapp</artifactId>
   <version>1.0-SNANSHOT</version>
-
+ 
   <name>myapp</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
