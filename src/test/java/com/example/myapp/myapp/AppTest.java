@@ -7,6 +7,6 @@ import org.junit.jupiter.api.Test;
 public class AppTest {
 
     void add() {
-            assertEquals(8, App.a(5,3));
+            assertEquals(8, adddition(5,3));
     }
 }
