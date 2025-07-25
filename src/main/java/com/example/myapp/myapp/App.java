@@ -1,16 +1,11 @@
 package com.example.myapp.myapp;
-
-/**
- * Hello world!
- */
-public class App {
-   
-    public static void main(String[] args) {
-        int result = add(5,3);
-        System.out.println("The sum: " +result);
-       
-    }
-     public int add(int a, int b){
-           return a+b;
-       }
+public class App{
+public sttaic void main(String args[]){
+   App a=new App();
+   int sum=a.sum(1,2);
+   System.out.println("Sum: "+sum)
+}
+   public int sum(int a, int b){
+      return a+b;
+   }
 }
