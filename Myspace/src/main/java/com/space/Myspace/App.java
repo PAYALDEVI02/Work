@@ -10,5 +10,5 @@ public class App
 		 App a= new App();
 		 System.out.println("Sum: "+a.add(3,4));
 		 
-	 }
+	 } 
 }
