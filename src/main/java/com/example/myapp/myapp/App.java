@@ -4,10 +4,12 @@ package com.example.myapp.myapp;
  * Hello world!
  */
 public class App {
-    public static void main(String[] args) {
-       public static int add(int a, int b){
+    public static int add(int a, int b){
            return a+b;
        }
+    public static void main(String[] args) {
+        int result = add(5,3);
+        System.out.println("The sum: " +result);
        
     }
 }
