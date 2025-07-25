@@ -3,7 +3,7 @@ name: Build Automation
 on:
   workflow_dispatch:
   
-jobs:
+jobs: 
 
   run-junit-tests:
      runs-on: ubuntu-latest
