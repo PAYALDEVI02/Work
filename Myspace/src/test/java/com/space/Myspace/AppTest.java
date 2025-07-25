@@ -32,10 +32,7 @@ public class AppTest
     /**
      * Rigourous Test :-)
      */
-    public void testApp()
-    {
-        assertTrue( true );
-    }
+ 
 	public void testadd() {
 		App a=new App();
 		assertEquals(7,a.add(3, 4));
