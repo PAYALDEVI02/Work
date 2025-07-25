@@ -5,7 +5,6 @@ public int add(int a, int b){
 }
    public static void main(String args[]){
       App a=new App();
-      int result = a.add(10,15);
-      System.out.println(result);
+      System.out.println("Sum: "a.add(3,4));
    }
 }
