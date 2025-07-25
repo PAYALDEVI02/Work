@@ -6,10 +6,7 @@ import org.junit.jupiter.api.Test;
 
 public class AppTest {
 
-    
-    @Test
-    public void AppTest() {
-        public void testAdd(){
-            assertEquals(8, App.add(5,3));
+    void add() {
+            assertEquals(8, App.a(5,3));
     }
 }
