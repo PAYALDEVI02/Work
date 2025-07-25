@@ -10,7 +10,6 @@ public class AppTest {
     @Test
     public void AppTest() {
         public void testAdd(){
-            int result = App.add(3,7);
-            assertEquals(10,result);
+            assertEquals(8, App.add(5,3));
     }
 }
