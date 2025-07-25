@@ -1,6 +1,6 @@
 package com.example.myapp.myapp;
 public class App{
-public sttaic void main(String args[]){
+public static void main(String args[]){
    App a=new App();
    int sum=a.sum(1,2);
    System.out.println("Sum: "+sum);
