@@ -1,7 +1,9 @@
 name: Build Docker Image For Dev Branch
 
 on:
-  workflow_dispatch:
+  push:
+    branches:
+        - dev 
   
 jobs:
 
