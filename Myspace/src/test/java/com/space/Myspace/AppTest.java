@@ -30,6 +30,7 @@ public class AppTest
      public void testadd() {
 	App a=new App();
 	assertEquals(7,a.add(3, 4));
+	assertEquals(7,a.sub(8,5));
      }
 
 }
