@@ -1,7 +1,7 @@
-name: Build Automation
+name: Testing
 
 on:
-  push:
+  pull_request:
     branches:
         - dev
   

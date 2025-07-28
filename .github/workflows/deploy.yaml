@@ -1,0 +1,14 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+     - dev
+
+jobs:
+   deploy:
+      runs-on: ubuntu=latest
+
+      steps:
+      - name: Echo Deploy Message
+        run: echo "Deploy to dev branch"
