@@ -3,36 +3,19 @@ package com.space.Myspace;
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
+import org.junit.jupiter.api.Test;
 
-/**
- * Unit test for simple App.
- */
-public class AppTest 
-    extends TestCase
-{
-    /**
-     * Create the test case 
-     *
-     * @param testName name of the test case
-     */
-    public AppTest( String testName )
-    {
-        super( testName );
-    }
 
-    /**
-     * @return the suite of tests being tested
-     */
-    public static Test suite() 
-    {
-        return new TestSuite( AppTest.class );
-    }
-     public void testMul() {
-	App a=new App();
-	int res=a.mul(4,5)
-	assertEquals(22,res);
-     }
-
+public class AppTest {
+   /**
+    * Rigorous Test :-)
+    */
+   @Test
+   public void testMessage() {
+       String expected = "Hello World";
+       assertEquals(expected, App.getMessage());
+   }
+    public void testMultiplication(){
+       assertEquals(14,App.multiply(5,3));
+   }
 }
-
-
