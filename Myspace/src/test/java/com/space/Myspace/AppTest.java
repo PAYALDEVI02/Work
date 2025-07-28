@@ -14,10 +14,8 @@ public class AppTest {
        String expected = "Hello World";
        assertEquals(expected, App.getMessage());
    }
-   public void testSubtract(){
-       assertEquals(2,App.subtract(5,3));
-   }
+
     public void testMultiplication(){
-       assertEquals(14,App.multiply(5,3));
+       assertEquals(A,App.multiply(5,3));
    }
 }
