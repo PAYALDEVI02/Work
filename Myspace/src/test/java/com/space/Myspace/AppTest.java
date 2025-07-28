@@ -27,10 +27,10 @@ public class AppTest
     {
         return new TestSuite( AppTest.class );
     }
-     public void testadd() {
+     public void testMul() {
 	App a=new App();
-	assertEquals(7,a.add(3, 4));
-	assertEquals(7,a.sub(8,5));
+	int res=a.mul(4,5)
+	assertEquals(22,res);
      }
 
 }
