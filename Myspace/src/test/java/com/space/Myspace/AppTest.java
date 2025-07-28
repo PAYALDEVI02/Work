@@ -29,7 +29,7 @@ public class AppTest
     }
      public void testMul() {
 	App a=new App();
-	int res=a.mul(4,5)
+	int res=a.mul(4,5);
 	assertEquals(22,res);
      }
 
