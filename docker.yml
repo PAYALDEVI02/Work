@@ -65,7 +65,7 @@ jobs:
              [[ "$BRANCH" == "dev" ]]; then
             echo "argo_branch=$BRANCH" >> $GITHUB_OUTPUT
           else
-            echo "argo_branch=ENG-4208-Devops" >> $GITHUB_OUTPUT
+            echo "argo_branch=BRANCH" >> $GITHUB_OUTPUT
           fi
      # Checkout branch-specific source code
       - name: Checkout source code
