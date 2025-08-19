@@ -2,7 +2,7 @@ name: Java with maven
  
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "TestFeature" ]
   workflow_dispatch:
  
 jobs:
