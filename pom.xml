@@ -46,6 +46,27 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 <scope>test</scope>
 </dependency>
 </dependencies>
+<dependency>
+<groupId>software.amazon.awssdk</groupId>
+<artifactId>core</artifactId>
+<version>2.32.24</version>
+<type>pom</type>
+</dependency>
+<dependency>
+<groupId>org.springframework.boot</groupId>
+<artifactId>spring-boot-starter-mail</artifactId>
+</dependency>
+<dependency>
+<groupId>org.eclipse.angus</groupId>
+<artifactId>jakarta.mail</artifactId>
+<version>2.0.4</version>
+</dependency>
+<dependency>
+<groupId>io.netty</groupId>
+<artifactId>netty-codec-http2</artifactId>
+<version>4.2.4.Final</version>
+</dependency>
+</dependencies>
 <build>
 <pluginManagement>
 <plugins>
@@ -89,4 +110,5 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 </pluginManagement>
 </build>
 </project>
+
 
