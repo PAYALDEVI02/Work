@@ -31,6 +31,11 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 <scope>test</scope>
 </dependency>
 <dependency>
+<groupId>com.google.code.gson</groupId>
+<artifactId>gson</artifactId>
+<version>2.10.1</version>
+</dependency>    
+<dependency>
 <groupId>org.junit.jupiter</groupId>
 <artifactId>junit-jupiter-params</artifactId>
 <scope>test</scope>
@@ -84,3 +89,4 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 </pluginManagement>
 </build>
 </project>
+
