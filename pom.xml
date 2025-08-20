@@ -65,6 +65,28 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <artifactId>protocol-core</artifactId>
     <version>2.32.14</version>
 </dependency>
+        <dependency>
+    <groupId>aws.sdk.kotlin</groupId>
+    <artifactId>aws-core-jvm</artifactId>
+    <version>1.5.2</version>
+</dependency>
+        <dependency>
+    <groupId>aws.sdk.kotlin</groupId>
+    <artifactId>aws-core-jvm</artifactId>
+    <version>1.5.3</version>
+</dependency>
+
+        <dependency>
+    <groupId>aws.sdk.kotlin</groupId>
+    <artifactId>aws-core-jvm</artifactId>
+    <version>1.5.5</version>
+</dependency>
+
+        <dependency>
+    <groupId>aws.sdk.kotlin</groupId>
+    <artifactId>aws-core-jvm</artifactId>
+    <version>1.5.6</version>
+</dependency>
 </dependencies>
 <build>
 <pluginManagement>
@@ -109,5 +131,6 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 </pluginManagement>
 </build>
 </project>
+
 
 
