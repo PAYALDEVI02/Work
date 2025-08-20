@@ -8,7 +8,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 <artifactId>myapp</artifactId>
 <version>1.0-SNAPSHOT</version>
 <name>myapp</name>
-<url>http://www.example.com</url>
+<url>http://www.example.com</url> 
 <properties>
 <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 <maven.compiler.release>17</maven.compiler.release>
@@ -131,6 +131,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 </pluginManagement>
 </build>
 </project>
+
 
 
 
