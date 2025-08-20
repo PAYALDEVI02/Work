@@ -45,6 +45,11 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 <artifactId>junit-jupiter-engine</artifactId>
 <scope>test</scope>
 </dependency>
+<dependency>
+        <groupId>aws.sdk.kotlin</groupId>
+        <artifactId>aws-core-jvm</artifactId>
+        <version>1.5.20</version>
+</dependency>
 </dependencies>
 <build>
 <pluginManagement>
@@ -89,3 +94,4 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 </pluginManagement>
 </build>
 </project>
+
