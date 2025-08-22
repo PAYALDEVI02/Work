@@ -2,6 +2,9 @@ name: Build and run Dockerfile
 
 on:
   workflow_dispatch:
+  push:
+     branches:
+       - TestFeature
 
 jobs:
   build-and-run:
